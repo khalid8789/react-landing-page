@@ -1,0 +1,80 @@
+.navbar{
+ background: 'transparent';
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 20px 20px;
+ cursor: pointer;
+ transition: transform 1000ms;
+ 
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar .move{
+ transform: translateY(-200px);
+}
+
+.desktop{
+color: rgb(139, 17, 17);
+font-size:2rem ;
+font-weight: bold;
+/* display: flex;
+align-items: center; */
+text-decoration: none;
+cursor: pointer;
+margin: 5px;
+}
+.navicon{
+display: none;
+/* position: absolute;
+top: 0;
+left: 0;
+cursor: pointer;
+transform: translate(100%, 50%);
+font-weight: bold;
+font-size: 2rem; */
+}
+.icon{
+    color: #fff;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 55px;
+    font-size: 1rem;
+    
+}
+button{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: solid 3px rgb(139, 17, 17);
+    color: #fff;
+    transition: 0.2s ease-out;
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+button:hover{
+    background: rgb(139, 17, 17);
+    cursor: pointer;
+    transform: scale(1.05);
+
+}

@@ -1,0 +1,19 @@
+.footer{
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-footer{
+    background-color: transparent;
+    padding: 8px 60px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+    letter-spacing: 1;
+}
+.btn-footer:hover{
+    background-color: transparent;
+}

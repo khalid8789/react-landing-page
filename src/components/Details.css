@@ -1,0 +1,46 @@
+h3{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h4{
+    padding: 20px 0px;
+    font-size: 22px;
+}
+p{
+    line-height: 1.8;
+}
+.wrapper{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.grid{
+    padding: 10px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.grid .grid-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.grid-items div{
+background-color:none;
+color: #fff;
+margin: 5px 0;
+padding: 10px;
+border-top: none;
+border-radius: 10px;
+width: 95%;
+
+}

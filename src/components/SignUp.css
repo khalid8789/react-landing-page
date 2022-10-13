@@ -1,0 +1,19 @@
+.form1 input{
+    margin:5px 0;
+    width: 40vw;
+    padding: 10px;
+    border: solid 3px rgb(139, 17, 17);
+    border-radius: 10px;
+    transition: 0.2s ease-out;
+    letter-spacing: 2px;
+    
+}
+.push1{
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
